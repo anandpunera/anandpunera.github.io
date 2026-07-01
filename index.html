@@ -389,6 +389,9 @@
         .timeline-item:nth-child(3) { animation-delay: 0.3s; }
         .timeline-item:nth-child(4) { animation-delay: 0.4s; }
         .timeline-item:nth-child(5) { animation-delay: 0.5s; }
+        .timeline-item:nth-child(6) { animation-delay: 0.6s; }
+        .timeline-item:nth-child(7) { animation-delay: 0.7s; }
+        .timeline-item:nth-child(8) { animation-delay: 0.8s; }
 
         @keyframes fadeInLeft {
             from {
@@ -761,13 +764,13 @@
     <!-- Hero Section -->
     <section class="hero" id="about">
         <div class="hero-content">
-            <div class="hero-tag">Backend Software Engineer & Entrepreneur</div>
+            <div class="hero-tag">Lead Software Engineer</div>
             <h1>
                 Hi, I'm <span class="gradient-text">Anand Punera</span>
             </h1>
             <p>
-                Seasoned Software Engineer with 10 years of experience designing scalable, event-driven architectures and microservices. 
-                I build high-impact solutions across digital identity, geo-data platforms, gaming, and IoT.
+                Seasoned Software Engineer with ~10 years of experience designing scalable, event-driven architectures and microservices.
+                Expertise in leading cross-functional teams across fintech, digital identity, geo-data platforms, gaming, and AI-driven test automation.
             </p>
             <div class="cta-buttons">
                 <a href="#contact" class="btn btn-primary">Get In Touch</a>
@@ -809,28 +812,30 @@
             <div class="timeline-item">
                 <div class="timeline-marker"></div>
                 <div class="timeline-card">
-                    <div class="timeline-date">04/2025 - Present</div>
-                    <h3 class="timeline-title">Freelance / Independent Consultant</h3>
-                    <div class="timeline-company">Sports Tech Platform</div>
+                    <div class="timeline-date">Mar 2026 – Present</div>
+                    <h3 class="timeline-title">Backend / Infrastructure Engineer</h3>
+                    <div class="timeline-company">TestZeus</div>
                     <div class="timeline-description">
+                        <p style="margin-bottom:0.75rem; font-size:0.9rem;">TestZeus is an open-source multi-agent AI test automation framework powering autonomous, browser-based test execution via LLM agents.</p>
                         <ul>
-                            <li>Designed and built a scalable sports technology platform for real-time activity tracking and performance analytics</li>
-                            <li>Architected event-driven backend using Kafka and stream processing with low latency</li>
-                            <li>Led end-to-end system design covering APIs, data pipelines, leaderboards, and notification services</li>
-                            <li>Improved system reliability through metrics, tracing, and automated CI/CD pipelines</li>
+                            <li>Own and operate production Kubernetes infrastructure on GKE — capacity planning, reliability engineering, and performance tuning</li>
+                            <li>Design and evolve backend services supporting the multi-agent test execution pipeline, including workflow orchestration and concurrency management</li>
+                            <li>Drive observability initiatives — metrics, tracing, and log aggregation — to improve system visibility and reduce MTTR</li>
+                            <li>Contribute to the Hercules multi-agent framework: distributed workflow integration, LLM config routing, and execution pipeline improvements</li>
+                            <li>Lead database reliability and query performance improvements on PostgreSQL StatefulSets</li>
                         </ul>
                     </div>
                     <div class="tech-stack">
-                        <span class="tech-tag">Java</span>
-                        <span class="tech-tag">Spring Boot</span>
-                        <span class="tech-tag">Kafka</span>
+                        <span class="tech-tag">Go</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Kubernetes (GKE)</span>
+                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">Grafana</span>
+                        <span class="tech-tag">PostgreSQL</span>
                         <span class="tech-tag">Redis</span>
-                        <span class="tech-tag">GraphQL</span>
-                        <span class="tech-tag">gRPC</span>
-                        <span class="tech-tag">Microservices</span>
-                        <span class="tech-tag">Keycloak</span>
-                        <span class="tech-tag">JWT</span>
-                        <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">Hatchet</span>
+                        <span class="tech-tag">OpenTelemetry</span>
+                        <span class="tech-tag">KEDA</span>
                     </div>
                 </div>
             </div>
@@ -838,25 +843,31 @@
             <div class="timeline-item">
                 <div class="timeline-marker"></div>
                 <div class="timeline-card">
-                    <div class="timeline-date">09/2024 - 05/2025</div>
-                    <h3 class="timeline-title">Staff Software Engineer</h3>
-                    <div class="timeline-company">YouTrip, Singapore</div>
+                    <div class="timeline-date">Jul 2025 – Present</div>
+                    <h3 class="timeline-title">Founder & Lead Engineer</h3>
+                    <div class="timeline-company">KridaClub (Pet Project)</div>
                     <div class="timeline-description">
+                        <p style="margin-bottom:0.75rem; font-size:0.9rem;">AI-based online sports platform enabling competitive and casual sports for all. Built the entire technology stack from scratch.</p>
                         <ul>
-                            <li>Designed Activity Log Service using Kafka and MongoDB, reducing database load by ~80%</li>
-                            <li>Architected Fraud Detection System performing real-time transaction analysis, saving millions in fraud losses</li>
-                            <li>Enhanced platform services with WhatsApp communication channel for OTP and business communications</li>
-                            <li>Improved developer productivity through CI/CD pipelines, testing frameworks, and AI tools</li>
+                            <li>Designed a modular monolith architecture (Spring Boot 3.4 / Java 21) with domain modules across independent PostgreSQL databases</li>
+                            <li>Built a high-performance Go API Gateway handling JWT auth, rate limiting, and reverse proxying</li>
+                            <li>Developed React 19 frontend with 100+ components and shipped native iOS/Android apps via Capacitor</li>
+                            <li>Built full production infrastructure — Docker Compose, Kubernetes (HPA, security-hardened pods), Prometheus + Grafana observability</li>
+                            <li>Integrated Temporal for reliable background workflows (match scoring, notifications, retries) ensuring idempotency and fault tolerance</li>
                         </ul>
                     </div>
                     <div class="tech-stack">
+                        <span class="tech-tag">Golang</span>
                         <span class="tech-tag">Java</span>
                         <span class="tech-tag">Spring Boot</span>
                         <span class="tech-tag">Kafka</span>
+                        <span class="tech-tag">Redis</span>
                         <span class="tech-tag">Temporal</span>
                         <span class="tech-tag">PostgreSQL</span>
-                        <span class="tech-tag">Datadog</span>
-                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">gRPC</span>
+                        <span class="tech-tag">GraphQL</span>
+                        <span class="tech-tag">Kubernetes</span>
                         <span class="tech-tag">AWS</span>
                     </div>
                 </div>
@@ -865,25 +876,64 @@
             <div class="timeline-item">
                 <div class="timeline-marker"></div>
                 <div class="timeline-card">
-                    <div class="timeline-date">12/2021 - 08/2024</div>
+                    <div class="timeline-date">Aug 2024 – Oct 2025</div>
+                    <h3 class="timeline-title">Staff Software Engineer</h3>
+                    <div class="timeline-company">YouTrip, Singapore</div>
+                    <div class="timeline-description">
+                        <ul>
+                            <li>Designed Activity Log Service — an event-driven system using Kafka and MongoDB to aggregate audit/transaction events, reducing DB load by ~80%</li>
+                            <li>Architected Fraud Detection System performing near real-time transaction analysis using rule-based checks and streaming pipelines, saving millions in losses</li>
+                            <li>Added WhatsApp communication channel for business notifications and login OTP delivery</li>
+                            <li>Debugged complex production incidents; provided immediate fixes and designed permanent solutions</li>
+                            <li>Improved CI/CD pipelines, testing frameworks, AI tools, and automation scripts to boost developer productivity</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Kafka</span>
+                        <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">Temporal</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">gRPC</span>
+                        <span class="tech-tag">GraphQL</span>
+                        <span class="tech-tag">Keycloak</span>
+                        <span class="tech-tag">Datadog</span>
+                        <span class="tech-tag">Prometheus</span>
+                        <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <div class="timeline-date">Dec 2021 – Aug 2024</div>
                     <h3 class="timeline-title">Technical Lead, Backend</h3>
                     <div class="timeline-company">nurture.farm, Bangalore</div>
                     <div class="timeline-description">
                         <ul>
                             <li>Led development of Maps Platform and Data Platform with a team of 12 developers</li>
-                            <li>Defined technical architecture ensuring scalability, reliability, and performance</li>
-                            <li>Developed log aggregation system using Kafka, reducing resolution times by 40%</li>
-                            <li>Conducted knowledge-sharing sessions fostering continuous learning culture</li>
+                            <li>Defined and drove technical architecture ensuring scalability, reliability, and performance</li>
+                            <li>Developed a log aggregation system using Kafka for real-time error detection, cutting resolution times by 40%</li>
+                            <li>Delivered multiple projects on time within budget; mentored team members and fostered a high-performance engineering culture</li>
+                            <li>Designed an append-only event aggregation system for audit logging to offload transactional databases</li>
                         </ul>
                     </div>
                     <div class="tech-stack">
                         <span class="tech-tag">Golang</span>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
                         <span class="tech-tag">Kafka</span>
                         <span class="tech-tag">Apache Flink</span>
                         <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">Temporal</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">gRPC</span>
                         <span class="tech-tag">GraphQL</span>
-                        <span class="tech-tag">Microservices</span>
                         <span class="tech-tag">Kubernetes</span>
+                        <span class="tech-tag">AWS</span>
                     </div>
                 </div>
             </div>
@@ -891,23 +941,30 @@
             <div class="timeline-item">
                 <div class="timeline-marker"></div>
                 <div class="timeline-card">
-                    <div class="timeline-date">04/2020 - 12/2021</div>
+                    <div class="timeline-date">Apr 2020 – Dec 2021</div>
                     <h3 class="timeline-title">Senior Software Engineer</h3>
                     <div class="timeline-company">VIDA Digital Identity, Bangalore</div>
                     <div class="timeline-description">
+                        <p style="margin-bottom:0.75rem; font-size:0.9rem;">Indonesia's leading digital identity platform providing eKYC, e-sign, and biometric verification services to enterprises and government bodies.</p>
                         <ul>
-                            <li>Contributed to Indonesia's leading digital identity platform developing scalable microservices</li>
-                            <li>Implemented rate limiting, RBAC, and asynchronous workflows using Kafka Streams</li>
-                            <li>Built self-service platforms for identity verification and e-signature services</li>
-                            <li>Used AI tools like Codium to streamline code reviews and ensure best practices</li>
+                            <li>Designed scalable microservices for core identity workflows — eKYC onboarding, electronic signature, and face verification</li>
+                            <li>Implemented rate limiting, RBAC, and JWT-based authentication across platform APIs for compliance</li>
+                            <li>Built async event-driven workflows using Kafka Streams and Apache Flink for identity verification pipelines</li>
+                            <li>Developed self-service integration portals enabling enterprise customers to onboard without engineering involvement</li>
+                            <li>Designed reporting and audit workflows ensuring traceability of all identity verification events</li>
                         </ul>
                     </div>
                     <div class="tech-stack">
                         <span class="tech-tag">Java</span>
-                        <span class="tech-tag">Spring</span>
+                        <span class="tech-tag">Spring Boot</span>
                         <span class="tech-tag">Kafka</span>
+                        <span class="tech-tag">Kafka Streams</span>
+                        <span class="tech-tag">Apache Flink</span>
+                        <span class="tech-tag">Redis</span>
                         <span class="tech-tag">MongoDB</span>
-                        <span class="tech-tag">Event-Driven</span>
+                        <span class="tech-tag">JWT</span>
+                        <span class="tech-tag">RBAC</span>
+                        <span class="tech-tag">Docker</span>
                     </div>
                 </div>
             </div>
@@ -915,16 +972,81 @@
             <div class="timeline-item">
                 <div class="timeline-marker"></div>
                 <div class="timeline-card">
-                    <div class="timeline-date">11/2018 - 04/2020</div>
+                    <div class="timeline-date">Nov 2018 – Apr 2020</div>
                     <h3 class="timeline-title">Senior Software Engineer</h3>
                     <div class="timeline-company">Gameskraft Technologies, Bangalore</div>
                     <div class="timeline-description">
+                        <p style="margin-bottom:0.75rem; font-size:0.9rem;">One of India's leading real-money gaming companies. Joined as a founding backend engineer on Gamezy, a fantasy sports platform that scaled to millions of active users.</p>
                         <ul>
-                            <li>Founding backend engineer on Gamezy fantasy sports platform with millions of active users</li>
-                            <li>Released MVP in 4 months with bi-weekly enhancement releases</li>
-                            <li>Designed backend components: FeedManager, TeamManager, LeaderBoard, Contest Manager</li>
-                            <li>Mentored junior team members and integrated GitHub Copilot for productivity</li>
+                            <li>Designed and shipped the Gamezy MVP in 4 months as a founding backend engineer, establishing core architecture patterns</li>
+                            <li>Built and owned critical backend services: FeedManager, TeamManager, LeaderBoard, and ContestManager</li>
+                            <li>Designed the leaderboard and scoring engine for real-time rank computation at scale during live match events</li>
+                            <li>Established bi-weekly release cadence with zero-downtime deployments, enabling rapid product iteration</li>
+                            <li>Mentored junior engineers on backend design patterns, code quality, and system thinking</li>
                         </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Redis</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Kafka</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <div class="timeline-date">Aug 2017 – Nov 2018</div>
+                    <h3 class="timeline-title">Software Development Engineer</h3>
+                    <div class="timeline-company">Amazon Development Centre, Pune</div>
+                    <div class="timeline-description">
+                        <p style="margin-bottom:0.75rem; font-size:0.9rem;">Part of the FireOS platform team building the software layer powering Amazon Echo Show and Echo Knight devices.</p>
+                        <ul>
+                            <li>Developed and maintained FireOS framework APIs enabling GUI applications and Alexa voice command integration on Echo display devices</li>
+                            <li>Owned end-to-end delivery of the Settings component across the Echo Show device family</li>
+                            <li>Designed APIs bridging on-device settings management with the Alexa cloud backend, ensuring real-time sync</li>
+                            <li>Collaborated with hardware, UX, and Alexa service teams to align firmware-level APIs with product requirements</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Android/FireOS</span>
+                        <span class="tech-tag">Alexa SDK</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">JUnit</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-card">
+                    <div class="timeline-date">Jul 2015 – Aug 2017</div>
+                    <h3 class="timeline-title">Software Development Engineer</h3>
+                    <div class="timeline-company">Hewlett Packard Enterprise, Bangalore</div>
+                    <div class="timeline-description">
+                        <p style="margin-bottom:0.75rem; font-size:0.9rem;">Worked on HPE Helion Cloud Suite, an enterprise private/hybrid cloud management platform.</p>
+                        <ul>
+                            <li>Delivered key platform features including Liquibase-based schema migration management, Hotfix Manager, and an automated Certificate Manager for TLS lifecycle</li>
+                            <li>Developed RESTful services using Java, Spring Boot, and Hibernate; designed APIs for internal services and enterprise customers</li>
+                            <li>Built platform monitoring capabilities and email notification workflows for cloud administrators</li>
+                            <li>Engaged directly with enterprise customers to gather requirements and deliver targeted fixes</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Hibernate</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">Liquibase</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Maven</span>
+                        <span class="tech-tag">Jenkins</span>
                     </div>
                 </div>
             </div>
@@ -963,7 +1085,9 @@
                     <span class="skill-item">Angular</span>
                     <span class="skill-item">React</span>
                     <span class="skill-item">Gin</span>
-                    <span class="skill-item">Hibernate</span>
+                    <span class="skill-item">Geos</span>
+                    <span class="skill-item">Playwright</span>
+                    <span class="skill-item">Puppeteer</span>
                 </div>
             </div>
 
@@ -975,6 +1099,7 @@
                     <span class="skill-item">Apache Flink</span>
                     <span class="skill-item">GraphQL</span>
                     <span class="skill-item">gRPC</span>
+                    <span class="skill-item">Hibernate</span>
                     <span class="skill-item">Redis</span>
                     <span class="skill-item">Docker</span>
                     <span class="skill-item">Kubernetes</span>
@@ -990,8 +1115,9 @@
                     <span class="skill-item">Codium</span>
                     <span class="skill-item">MongoDB</span>
                     <span class="skill-item">Elasticsearch</span>
-                    <span class="skill-item">AWS</span>
                     <span class="skill-item">PostgreSQL</span>
+                    <span class="skill-item">AWS</span>
+                    <span class="skill-item">GCP</span>
                 </div>
             </div>
 
@@ -1034,39 +1160,57 @@
 
         <div class="achievements-grid">
             <div class="achievement-card">
-                <div class="achievement-icon">🎯</div>
-                <h3>Event-Driven Architectures</h3>
-                <p>Spearheaded development of scalable event-driven architectures, enabling reliable workflows across multiple high-traffic projects and platforms.</p>
-            </div>
-
-            <div class="achievement-card">
-                <div class="achievement-icon">👥</div>
-                <h3>Team Leadership</h3>
-                <p>Led cross-functional teams to deliver complex projects while mentoring junior developers and fostering collaborative, high-performance culture.</p>
-            </div>
-
-            <div class="achievement-card">
-                <div class="achievement-icon">🤖</div>
-                <h3>AI-Powered Development</h3>
-                <p>Pioneered use of GitHub Copilot and Codium to boost team productivity, streamline code quality checks, and accelerate feature delivery.</p>
-            </div>
-
-            <div class="achievement-card">
                 <div class="achievement-icon">💰</div>
-                <h3>Fraud Prevention</h3>
-                <p>Architected real-time fraud detection system at YouTrip that successfully prevented millions of dollars in fraudulent transactions.</p>
+                <h3>Fraud Prevention at Scale</h3>
+                <p>Architected and delivered a fraud detection system at YouTrip that saved millions of dollars in fraudulent transaction losses through near real-time streaming analysis.</p>
             </div>
 
             <div class="achievement-card">
                 <div class="achievement-icon">📈</div>
-                <h3>Performance Optimization</h3>
-                <p>Reduced database load by 80% through Activity Log Service design and cut incident resolution times by 40% with log aggregation system.</p>
+                <h3>80% DB Load Reduction</h3>
+                <p>Reduced transactional database load by ~80% across multiple systems by introducing event-driven audit log aggregation using Kafka — improving compliance traceability and database performance simultaneously.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">⚡</div>
+                <h3>40% Faster Incident Resolution</h3>
+                <p>Cut incident resolution time by 40% at nurture.farm by building a real-time log aggregation pipeline across microservices, enabling faster root-cause identification.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">👥</div>
+                <h3>Led Team of 12 Engineers</h3>
+                <p>Led a team of 12 engineers to deliver Maps Platform and Data Platform at nurture.farm, consistently shipping on time and within budget while maintaining high engineering standards.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🏟️</div>
+                <h3>Built KridaClub Solo</h3>
+                <p>Built and launched KridaClub — an end-to-end sports platform — solo from scratch, encompassing backend, API gateway, frontend, mobile apps, and production Kubernetes infrastructure.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🔊</div>
+                <h3>Amazon Echo Show</h3>
+                <p>Owned the Settings component on Amazon Echo Show devices end-to-end, bridging on-device UX with Alexa cloud backend across multiple device generations.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🎯</div>
+                <h3>Event-Driven Architectures</h3>
+                <p>Spearheaded event-driven and microservices architectures across five organizations, establishing reusable patterns for scalability, reliability, and domain decoupling.</p>
+            </div>
+
+            <div class="achievement-card">
+                <div class="achievement-icon">🤖</div>
+                <h3>AI-Assisted Development</h3>
+                <p>Championed AI-assisted development (GitHub Copilot, Codium) across engineering teams, standardizing agentic coding practices and measurably improving developer throughput.</p>
             </div>
 
             <div class="achievement-card">
                 <div class="achievement-icon">🚀</div>
-                <h3>Rapid MVP Delivery</h3>
-                <p>As founding engineer at Gamezy, delivered fantasy sports platform MVP in just 4 months, scaling to millions of active users.</p>
+                <h3>SDE to Staff Engineer</h3>
+                <p>Progressed from SDE to Staff Engineer across ~10 years, taking on increasing technical leadership, system design ownership, and cross-functional delivery responsibility.</p>
             </div>
         </div>
     </section>
@@ -1082,10 +1226,10 @@
         </div>
 
         <div class="contact-grid">
-            <a href="/cdn-cgi/l/email-protection#debfb0bfb0baf0bdf0aeabb0bbacbf9eb9b3bfb7b2f0bdb1b3" class="contact-card">
+            <a href="mailto:anand.c.punera@gmail.com" class="contact-card">
                 <div class="contact-icon">📧</div>
                 <h3>Email</h3>
-                <p><span class="__cf_email__" data-cfemail="0f6e616e616b216c217f7a616a7d6e4f68626e6663216c6062">[email&#160;protected]</span></p>
+                <p>anand.c.punera@gmail.com</p>
             </a>
 
             <a href="tel:+917415157982" class="contact-card">
@@ -1110,11 +1254,11 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Anand Punera. Built with passion for creating scalable systems.</p>
-        <p style="margin-top: 0.5rem; font-size: 0.85rem;">Backend Engineer | System Architect | Tech Lead</p>
+        <p>&copy; 2026 Anand Punera. Built with passion for creating scalable systems.</p>
+        <p style="margin-top: 0.5rem; font-size: 0.85rem;">Backend Engineer | Infrastructure Engineer | Tech Lead</p>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
         // Smooth scroll for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
